@@ -1,19 +1,14 @@
-# Welcome to your CDK C# project!
+# Welcome to your CDK TypeScript project
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CdkPipelineEbDemoStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+This is a blank project for CDK development with TypeScript.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-It uses the [.NET CLI](https://docs.microsoft.com/dotnet/articles/core/) to compile and execute your project.
-
 ## Useful commands
 
-* `dotnet build src` compile this app
-* `cdk ls`           list all stacks in the app
-* `cdk synth`       emits the synthesized CloudFormation template
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
-* `cdk docs`        open CDK documentation
-
-Enjoy!
+* `cdk synth`       emits the synthesized CloudFormation template
